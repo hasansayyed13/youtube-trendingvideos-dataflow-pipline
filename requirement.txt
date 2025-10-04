@@ -1,0 +1,13 @@
+req libraries :
+
+import pandas as pd
+import numpy as np
+from datetime import datetime
+from pymongo import MongoClient
+import requests
+import json
+
+
+API KEY OF YOUTUBE :
+
+GO TO GOOGLE CLOUD AND GET YOUTUBE API V3

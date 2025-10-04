@@ -53,10 +53,5 @@ def clean_data():
     return df
 
 
-def save_csv():
-    df=clean_data()
-    with open('youtube_data.csv', 'w', newline='') as csvfile:
-        writer = csv.load(df)
-
 if __name__ == '__main__':
     clean_data()

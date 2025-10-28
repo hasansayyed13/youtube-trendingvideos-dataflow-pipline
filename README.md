@@ -1,4 +1,4 @@
-An end-to-end ELT  pipline that fetches data from youtube API and load into MongoDB
+An end-to-end ELT (EXTRACT TRANSFROM LOAD) pipline that fetches data from youtube API and load into MongoDB AS RAW DATA THEN IMPORT DATA AS JSON FILE OR CSV FILE AND TAKE IMPORTANT DATA AND CLEAN AND USE FOR ANALYSIS.
 
 features :
 fetch data through API

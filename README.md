@@ -3,7 +3,6 @@ An end-to-end ELT (EXTRACT TRANSFROM LOAD) pipline that fetches data from youtub
 features :
 fetch data through API
 load into MongoDB
-show into dataframe in console 
 save clean data into csv file for uses
 
 new things add soon:

@@ -1,0 +1,92 @@
+2026-07-04 10:03:54 - INFO - STATUS ::None
+2026-07-04 10:03:54 - INFO - Error :[Errno 22] Invalid argument: 'raw_file_data_IN_2026-07-04T10:03:54.432792.json'
+2026-07-04 10:05:22 - INFO - STATUS ::None
+2026-07-04 10:05:22 - INFO - Error :[Errno 22] Invalid argument: 'raw_file_data_IN_2026-07-04T10:05:22.110632.json'
+2026-07-04 10:20:05 - INFO - STATUS ::None
+2026-07-04 10:38:57 - INFO - STATUS ::None
+2026-07-04 10:38:57 - INFO - Loading Started
+2026-07-04 10:38:57 - INFO - Error :Invalid format string
+2026-07-04 10:39:13 - INFO - STATUS ::None
+2026-07-04 10:39:13 - INFO - Loading Started
+2026-07-04 10:39:13 - INFO - Raw Data Saved As:{file_name}
+2026-07-04 10:40:29 - INFO - STATUS ::None
+2026-07-04 10:40:29 - INFO - Loading Started
+2026-07-04 10:40:30 - INFO - Raw Data Saved As:{file_name}
+2026-07-04 12:25:15 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 12:25:15 - INFO - Error:HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/videos?part=snippet%2Cstatistics%2CcontentDetails&chart=mostPopular&regionCode=IN&maxResults=50&key=AIzaSyARu7ozah5FDhKi2gLWmlGuQmq1X8ZfUMI (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022975085350>: Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-04 12:25:15 - ERROR - YOUTUBE-PIPLINE-FAILED::HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/videos?part=snippet%2Cstatistics%2CcontentDetails&chart=mostPopular&regionCode=IN&maxResults=50&key=AIzaSyARu7ozah5FDhKi2gLWmlGuQmq1X8ZfUMI (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022975085350>: Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-04 12:32:21 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 12:32:31 - INFO - STATUS ::None
+2026-07-04 12:32:31 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 12:32:31 - INFO - Loading Started
+2026-07-04 12:32:32 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 12:32:32 - INFO - Transforming Started
+2026-07-04 12:32:32 - INFO - Transforming Failed
+2026-07-04 12:32:32 - ERROR - YOUTUBE-PIPLINE-FAILED::'NoneType' object is not subscriptable
+2026-07-04 12:33:32 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 12:33:55 - INFO - STATUS ::None
+2026-07-04 12:33:55 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 12:33:55 - INFO - Loading Started
+2026-07-04 12:33:55 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 12:33:55 - INFO - Transforming Started
+2026-07-04 12:33:55 - INFO - Transforming Failed
+2026-07-04 12:33:55 - ERROR - YOUTUBE-PIPLINE-FAILED::'NoneType' object is not subscriptable
+2026-07-04 12:35:16 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 12:42:25 - INFO - Error:('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+2026-07-04 12:42:25 - ERROR - YOUTUBE-PIPLINE-FAILED::('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+2026-07-04 12:46:44 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 12:46:50 - INFO - STATUS ::None
+2026-07-04 12:46:50 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 12:46:50 - INFO - Loading Started
+2026-07-04 12:46:50 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 12:46:50 - INFO - Transforming Started
+2026-07-04 12:46:51 - INFO - Transforming Failed
+2026-07-04 12:46:51 - ERROR - YOUTUBE-PIPLINE-FAILED::int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-07-04 12:51:33 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 12:51:34 - INFO - STATUS ::None
+2026-07-04 12:51:34 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 12:51:34 - INFO - Loading Started
+2026-07-04 12:51:34 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 12:51:34 - INFO - Transforming Started
+2026-07-04 12:51:34 - INFO - Transforming Failed
+2026-07-04 12:51:34 - ERROR - YOUTUBE-PIPLINE-FAILED::'DataFrame' object has no attribute 'str'
+2026-07-04 12:51:58 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 12:52:01 - INFO - STATUS ::None
+2026-07-04 12:52:01 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 12:52:01 - INFO - Loading Started
+2026-07-04 12:52:01 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 12:52:01 - INFO - Transforming Started
+2026-07-04 12:52:01 - INFO - Transforming Failed
+2026-07-04 12:52:01 - ERROR - YOUTUBE-PIPLINE-FAILED::int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-07-04 12:57:14 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 12:57:15 - INFO - STATUS ::None
+2026-07-04 12:57:15 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 12:57:15 - INFO - Loading Started
+2026-07-04 12:57:15 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 12:57:15 - INFO - Transforming Started
+2026-07-04 12:57:15 - INFO - Saved transformed data to ..\raw_data\raw_trending_IN_20260704_.csv
+2026-07-04 12:57:15 - INFO - YOUTUBE-PIPLINE-COMPLETED
+2026-07-04 13:11:31 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 13:11:31 - INFO - STATUS ::None
+2026-07-04 13:11:31 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 13:11:31 - INFO - Loading Started
+2026-07-04 13:11:31 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 13:11:31 - INFO - Transforming Started
+2026-07-04 13:11:32 - ERROR - Error:Cannot save file into a non-existent directory: '..\clean_data'
+2026-07-04 13:11:32 - INFO - YOUTUBE-PIPLINE-COMPLETED
+2026-07-04 13:11:54 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 13:11:55 - INFO - STATUS ::None
+2026-07-04 13:11:55 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 13:11:55 - INFO - Loading Started
+2026-07-04 13:11:55 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 13:11:55 - INFO - Transforming Started
+2026-07-04 13:11:55 - ERROR - Error:Cannot save file into a non-existent directory: '..\clean_data'
+2026-07-04 13:11:55 - INFO - YOUTUBE-PIPLINE-COMPLETED
+2026-07-04 13:12:38 - INFO - YOUTUBE-PIPLINE-STARTED
+2026-07-04 13:12:38 - INFO - STATUS ::None
+2026-07-04 13:12:38 - INFO - TOTAL DATA FOUND ::50
+2026-07-04 13:12:38 - INFO - Loading Started
+2026-07-04 13:12:38 - INFO - Raw Data Saved As:..\raw_data\raw_trending_IN_20260704_.json
+2026-07-04 13:12:38 - INFO - Transforming Started
+2026-07-04 13:12:39 - INFO - Saved transformed data to ..\clean_data\raw_trending_IN_20260704_.csv
+2026-07-04 13:12:39 - INFO - YOUTUBE-PIPLINE-COMPLETED

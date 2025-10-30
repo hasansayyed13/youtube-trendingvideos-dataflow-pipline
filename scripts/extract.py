@@ -1,18 +1,31 @@
 import requests
 import json
-from config import API_KEYS
+from datetime import date as dt
+from log import logger
+from config import api_key
 
 
-def extract_data(region="IN"):
-    URL= r"https://www.googleapis.com/youtube/v3/videos"
-    params = {
-        "part": "snippet,statistics",
-        "chart": "mostPopular",
-        "regionCode": region,
-        "maxResults": 50, # CHANGE IF YOU WANT TO CHANGE  YOU CAN  i.e 100 TRENDING VDIEOS DATA
-        "key": API_KEYS  #PUT YOU API KEY HERE DIRECT OR USE CAN IMPORT FROM OTHER FILE TOO
+
+def extract_data(url:str,region_code:str,maxium_result:int):
+    # Set the parameters for the API request
+    params={
+        'part':'snippet,statistics,contentDetails',
+        'chart':'mostPopular',
+        'regionCode':region_code,
+        'maxResults':maxium_result,
+        'key':api_key
     }
-    result = requests.get(URL, params=params)
-    raw_data= result.json()
+    try:
+        # Make the API request
+        response=requests.get(url,params=params)
+        # Check if the request was successful or Not
+        logger.info(f"STATUS ::{response.raise_for_status()}")
+        #Check Data found
+        logger.info(f"TOTAL DATA FOUND ::{len(response.json()['items'])}")
 
-    return raw_data
+        return response.json()
+    except Exception as e:
+        logger.info(f"Error:{e}")
+        raise e
+
+

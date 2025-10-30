@@ -1,11 +1,13 @@
 import json
-import os
+from datetime import date as dt
 
-config_f=os.path.join(os.path.dirname(__file__),
-                      r"D:\youtube elt project\youtube-trendingvideos-dataflow-pipline\.idea\config.json")
+#open json while those hold api_key
+with open("api_key.json","r") as file:
+        data=json.load(file)
 
-with open(config_f,'r') as f:
-    cfg=json.load(f)
-
-API_KEYS=cfg.get('API_KEY')
-MONGO__URL=cfg.get('MONGO_URL')
+api_key=data.get("api_key")
+url = r"https://www.googleapis.com/youtube/v3/videos"
+region_code = 'IN'
+maximum_result= 50
+raw_file_path=fr"..\raw_data\raw_trending_{region_code}_{dt.today().strftime('%Y%m%d')}_.json"
+clean_file_path = fr"..\clean_data\raw_trending_{region_code}_{dt.today().strftime('%Y%m%d')}_.csv"

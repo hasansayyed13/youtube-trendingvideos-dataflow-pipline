@@ -13,7 +13,7 @@
 2026-07-04 10:40:29 - INFO - Loading Started
 2026-07-04 10:40:30 - INFO - Raw Data Saved As:{file_name}
 2026-07-04 12:25:15 - INFO - YOUTUBE-PIPLINE-STARTED
-2026-07-04 12:25:15 - INFO - Error:HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/videos?part=snippet%2Cstatistics%2CcontentDetails&chart=mostPopular&regionCode=IN&maxResults=50&key=AIzaSyARu7ozah5FDhKi2gLWmlGuQmq1X8ZfUMI (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022975085350>: Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-07-04 12:25:15 - INFO - Error:HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/videos?part=snippet%2Cstatistics%2CcontentDetails&chart=mostPopular&regionCode=IN&maxResults=50&key=api_key(Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022975085350>: Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
 2026-07-04 12:25:15 - ERROR - YOUTUBE-PIPLINE-FAILED::HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /youtube/v3/videos?part=snippet%2Cstatistics%2CcontentDetails&chart=mostPopular&regionCode=IN&maxResults=50&key=AIzaSyARu7ozah5FDhKi2gLWmlGuQmq1X8ZfUMI (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022975085350>: Failed to resolve 'www.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
 2026-07-04 12:32:21 - INFO - YOUTUBE-PIPLINE-STARTED
 2026-07-04 12:32:31 - INFO - STATUS ::None

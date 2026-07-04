@@ -1,11 +1,7 @@
-An end-to-end ELT (EXTRACT TRANSFROM LOAD) pipline that fetches data from youtube API and load into MongoDB AS RAW DATA THEN IMPORT DATA AS JSON FILE OR CSV FILE AND TAKE IMPORTANT DATA AND CLEAN AND USE FOR ANALYSIS.
+YouTube ETL Pipeline
+An automated data system that collects, cleans, and stores YouTube data for analytics dashboards.
+Key FeaturesData Collection: Pulls raw video stats directly from the YouTube API.
+Data Cleaning: Removes errors, fixes formats, and structures the data for charts.
+Error Handling: Uses try-except blocks to prevent crashes when errors happen.
+Activity Logging: Tracks pipeline runs and records issues in a log file.
 
-features :
-fetch data through API
-load into MongoDB
-save clean data into csv file for uses
-
-new things add soon:
-airlow for autmoatic pipline
-visual diagram of data 
-put data  clean data on postgreSQL 

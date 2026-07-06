@@ -1,7 +1,7 @@
 import logging
 
 logging.basicConfig(
-    filename='E:\youtube-trendingvideos-dataflow-pipline\logs\youtube-etl-pipeline.log',
+    filename=r'..\logs\youtube-etl-pipeline.log',
     filemode='a',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
